@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+Acme	src/AuthController.php	/^<?php namespace Acme;$/;"	n
+Acme	src/Business.php	/^namespace Acme;$/;"	n
+Acme	src/Person.php	/^namespace Acme;$/;"	n
+Acme	src/RegisterUser.php	/^<?php namespace Acme;$/;"	n
+Acme	src/RespondsToUserRegistration.php	/^<?php namespace Acme;$/;"	n
+Acme	src/Staff.php	/^namespace Acme;$/;"	n
+Acme\\\\	composer.json	/^			"Acme\\\\": "src"$/;"	s	object:autoload.psr-4
+AuthController	ex.php	/^use Acme\\{RegisterUser, AuthController};$/;"	a	typeref:unknown:Acme\\AuthController
+AuthController	src/AuthController.php	/^class AuthController implements RespondsToUserRegistration {$/;"	c	namespace:Acme
+Business	src/Business.php	/^class Business {$/;"	c	namespace:Acme
+ClassLoader	vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c	namespace:Composer\\Autoload
+ComposerAutoloaderInit680dcbcda8c174557c22c9c3b984d0f0	vendor/composer/autoload_real.php	/^class ComposerAutoloaderInit680dcbcda8c174557c22c9c3b984d0f0$/;"	c
+ComposerStaticInit680dcbcda8c174557c22c9c3b984d0f0	vendor/composer/autoload_static.php	/^class ComposerStaticInit680dcbcda8c174557c22c9c3b984d0f0$/;"	c	namespace:Composer\\Autoload
+Composer\\Autoload	vendor/composer/ClassLoader.php	/^namespace Composer\\Autoload;$/;"	n
+Composer\\Autoload	vendor/composer/autoload_static.php	/^namespace Composer\\Autoload;$/;"	n
+Person	src/Business.php	/^use Acme\\{Staff, Person};$/;"	a	namespace:Acme	typeref:unknown:Acme\\Person
+Person	src/Person.php	/^class Person {$/;"	c	namespace:Acme
+Person	src/Staff.php	/^use Acme\\Person;$/;"	a	namespace:Acme	typeref:unknown:Acme\\Person
+RegisterUser	ex.php	/^use Acme\\{RegisterUser, AuthController};$/;"	a	typeref:unknown:Acme\\RegisterUser
+RegisterUser	src/RegisterUser.php	/^class RegisterUser {$/;"	c	namespace:Acme
+RespondsToUserRegistration	src/RespondsToUserRegistration.php	/^interface RespondsToUserRegistration {$/;"	i	namespace:Acme
+Staff	src/Business.php	/^use Acme\\{Staff, Person};$/;"	a	namespace:Acme	typeref:unknown:Acme\\Staff
+Staff	src/Staff.php	/^class Staff {$/;"	c	namespace:Acme
+__construct	src/AuthController.php	/^	public function __construct(RegisterUser $registration) {$/;"	f	class:Acme\\AuthController
+__construct	src/Business.php	/^	public function __construct(Staff $staff) {$/;"	f	class:Acme\\Business
+__construct	src/Person.php	/^	public function __construct($name) {$/;"	f	class:Acme\\Person
+__construct	src/Staff.php	/^	public function __construct($members = []) {$/;"	f	class:Acme\\Staff
+add	src/Staff.php	/^	public function add(Person $person) {$/;"	f	class:Acme\\Staff
+add	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+addClassMap	vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f	class:Composer\\Autoload\\ClassLoader
+addPsr4	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+apcuPrefix	vendor/composer/ClassLoader.php	/^    private $apcuPrefix;$/;"	v	class:Composer\\Autoload\\ClassLoader
+autoload	composer.json	/^	"autoload": {$/;"	o
+baseDir	vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+c	ex.php	/^$c = new AuthController($r);$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v	class:Composer\\Autoload\\ClassLoader
+execute	src/RegisterUser.php	/^	public function execute($/;"	f	class:Acme\\RegisterUser
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+findFile	vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	f	class:Composer\\Autoload\\ClassLoader
+findFileWithExtension	vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f	class:Composer\\Autoload\\ClassLoader
+getApcuPrefix	vendor/composer/ClassLoader.php	/^    public function getApcuPrefix()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getClassMap	vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getFallbackDirs	vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getFallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getInitializer	vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f	class:Composer\\Autoload\\ComposerStaticInit680dcbcda8c174557c22c9c3b984d0f0
+getLoader	vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	f	class:ComposerAutoloaderInit680dcbcda8c174557c22c9c3b984d0f0
+getPrefixes	vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getPrefixesPsr4	vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getUseIncludePath	vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	f	class:Composer\\Autoload\\ClassLoader
+hire	src/Business.php	/^	public function hire(Person $person) {$/;"	f	class:Acme\\Business
+includeFile	vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f	namespace:Composer\\Autoload
+isClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f	class:Composer\\Autoload\\ClassLoader
+loadClass	vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	f	class:Composer\\Autoload\\ClassLoader
+loadClassLoader	vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f	class:ComposerAutoloaderInit680dcbcda8c174557c22c9c3b984d0f0
+loader	vendor/composer/autoload_real.php	/^    private static $loader;$/;"	v	class:ComposerAutoloaderInit680dcbcda8c174557c22c9c3b984d0f0
+members	src/Staff.php	/^	protected $members;$/;"	v	class:Acme\\Staff
+missingClasses	vendor/composer/ClassLoader.php	/^    private $missingClasses = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+name	src/Person.php	/^	protected $name;$/;"	v	class:Acme\\Person
+prefixDirsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+prefixDirsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v	class:Composer\\Autoload\\ComposerStaticInit680dcbcda8c174557c22c9c3b984d0f0
+prefixLengthsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+prefixLengthsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v	class:Composer\\Autoload\\ComposerStaticInit680dcbcda8c174557c22c9c3b984d0f0
+prefixesPsr0	vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+psr-4	composer.json	/^		"psr-4": {$/;"	o	object:autoload
+r	ex.php	/^$r = new RegisterUser();$/;"	v
+register	src/AuthController.php	/^	public function register() {$/;"	f	class:Acme\\AuthController
+register	vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+registration	src/AuthController.php	/^		protected $registration;$/;"	v	class:Acme\\AuthController
+set	vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setApcuPrefix	vendor/composer/ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setPsr4	vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setUseIncludePath	vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f	class:Composer\\Autoload\\ClassLoader
+staff	src/Business.php	/^	protected $staff;$/;"	v	class:Acme\\Business
+unregister	vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	f	class:Composer\\Autoload\\ClassLoader
+useIncludePath	vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	v	class:Composer\\Autoload\\ClassLoader
+userRegisteredFailed	src/AuthController.php	/^	public function userRegisteredFailed() {$/;"	f	class:Acme\\AuthController
+userRegisteredFailed	src/RespondsToUserRegistration.php	/^	public function userRegisteredFailed();$/;"	f	interface:Acme\\RespondsToUserRegistration
+userRegisteredSuccessfully	src/AuthController.php	/^	public function userRegisteredSuccessfully() {$/;"	f	class:Acme\\AuthController
+userRegisteredSuccessfully	src/RespondsToUserRegistration.php	/^	public function userRegisteredSuccessfully();$/;"	f	interface:Acme\\RespondsToUserRegistration
+vendorDir	vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
